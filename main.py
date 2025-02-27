@@ -13,7 +13,7 @@ class MainWindow(QMainWindow):
         self.setCentralWidget(central_widget)
 
         # Create a QLabel
-        label = QLabel("Hi, my name is Ash!", self)
+        label = QLabel("Hello, my name is Ash!", self)
         # Center-align text both horizontally and vertically
         label.setAlignment(Qt.AlignCenter)
 
